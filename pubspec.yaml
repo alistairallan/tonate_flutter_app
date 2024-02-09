@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_midi_command: ^0.4.15
+  flutter_virtual_piano: ^0.0.9
 
 dev_dependencies:
   flutter_test:
@@ -17,8 +19,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  # assets:
-  #  - images/a_dot_burr.jpeg
+  assets:
+    - soundfonts/
   #  - images/a_dot_ham.jpeg
   # fonts:
   #   - family: Schyler
