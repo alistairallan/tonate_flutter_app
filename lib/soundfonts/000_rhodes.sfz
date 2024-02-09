@@ -1,0 +1,757 @@
+/*
+// **********************************************************************
+// Converted with SF22SFZ Converter v1.929
+// Copyright Jan 11 2021 , Plogue Art et Technologie, Inc
+// **********************************************************************
+// Conversion Date: Tue Aug 15 00:02:19 2023
+// **********************************************************************
+// Parent file    : /Users/alistairallan/Documents/TonateSoundFonts/rhodes.sf2
+// Soundfont      : 2.1
+// Internal Name  : rhodes
+// Optimised for  : EMU8000
+// Editor Used    : Polyphone
+// Comments       : Sf2 imported from sfz by Polyphone
+*/
+
+<control>
+ hint_load_method=1
+ set_cc1=0     //Power-on Default Values: Modulation
+ set_cc11=127  //Power-on Default Values: Expression
+ set_cc64=0    //Power-on Default Values: Sustain Pedal
+
+<global>
+ sample=sf2_smpl.wav
+ //8.4.2 MIDI Note-On Velocity to Filter Cutoff
+ //8.4.8 MIDI Continuous Controller 91 to Reverb Effects Send
+ //8.4.9 MIDI Continuous Controller 93 to Chorus Effects Send
+ //8.4.10 MIDI Pitch Wheel to Initial Pitch Controlled by MIDI Pitch Wheel Sensitivity
+ lfo06_wave=0
+ lfo06_pitch=0 lfo06_pitch_oncc129=50 lfo06_pitch_oncc1=50
+ lfo06_freq=8.176
+
+ amplitude_oncc11=100 amplitude_curvecc11=7
+
+
+<master>
+ lokey=0 hikey=127
+ lovel=0 hivel=127
+<group>
+ ampeg_decay=36.9926
+ ampeg_sustain=6.30957e-06
+ ampeg_release=0.350099
+<region>
+ lokey=0 hikey=30
+ lovel=111 hivel=127
+ ampeg_decay=25.0054
+ loop_mode=loop_continuous
+ pitch_keycenter=29 //overridingRootKey
+ region_label=1_F_a
+ tune=0 offset=0 end=636785
+ loop_start=592768 loop_end=636784
+<region>
+ lokey=31 hikey=34
+ lovel=111 hivel=127
+ ampeg_decay=24.2935
+ loop_mode=loop_continuous
+ pitch_keycenter=33 //overridingRootKey
+ region_label=1_A_a
+ tune=0 offset=636831 end=1112368
+ loop_start=1069335 loop_end=1112367
+<region>
+ lokey=35 hikey=38
+ lovel=111 hivel=127
+ ampeg_decay=23.7936
+ loop_mode=loop_continuous
+ pitch_keycenter=37 //overridingRootKey
+ region_label=2_Db_a
+ tune=0 offset=1112414 end=1545575
+ loop_start=1505242 loop_end=1545574
+<region>
+ lokey=39 hikey=42
+ lovel=111 hivel=127
+ ampeg_decay=22.9036
+ loop_mode=loop_continuous
+ pitch_keycenter=41 //overridingRootKey
+ region_label=2_F_a
+ tune=0 offset=1545621 end=1960082
+ loop_start=1931925 loop_end=1960081
+<region>
+ lokey=43 hikey=45
+ lovel=111 hivel=127
+ ampeg_decay=21.996
+ loop_mode=loop_continuous
+ pitch_keycenter=45 //overridingRootKey
+ region_label=2_A_a
+ tune=0 offset=1960128 end=2199701
+ loop_start=2180868 loop_end=2199700
+<region>
+ lokey=46 hikey=47
+ lovel=111 hivel=127
+ ampeg_decay=21.996
+ loop_mode=loop_continuous
+ pitch_keycenter=47 //overridingRootKey
+ region_label=2_B_a
+ tune=0 offset=2199747 end=2459734
+ loop_start=2433003 loop_end=2459733
+<region>
+ lokey=48 hikey=50
+ lovel=111 hivel=127
+ ampeg_decay=21.7057
+ loop_mode=loop_continuous
+ pitch_keycenter=49 //overridingRootKey
+ region_label=3_Db_a
+ tune=0 offset=2459780 end=3021012
+ loop_start=2459780 loop_end=3021010
+<region>
+ lokey=51 hikey=54
+ lovel=111 hivel=127
+ ampeg_decay=21.7057
+ loop_mode=loop_continuous
+ pitch_keycenter=53 //overridingRootKey
+ region_label=3_F_a
+ tune=0 offset=3021058 end=3363316
+ loop_start=3021058 loop_end=3363314
+<region>
+ lokey=55 hikey=58
+ lovel=111 hivel=127
+ ampeg_decay=20.299
+ loop_mode=loop_continuous
+ pitch_keycenter=57 //overridingRootKey
+ region_label=3_A_a
+ tune=0 offset=3363362 end=3564186
+ loop_start=3553160 loop_end=3564185
+<region>
+ lokey=59 hikey=62
+ lovel=111 hivel=127
+ ampeg_decay=18.7004
+ loop_mode=loop_continuous
+ pitch_keycenter=61 //overridingRootKey
+ region_label=4_Db_a
+ tune=0 offset=3564232 end=3699682
+ loop_start=3680123 loop_end=3699681
+<region>
+ lokey=63 hikey=66
+ lovel=111 hivel=127
+ ampeg_decay=14.9977
+ loop_mode=loop_continuous
+ pitch_keycenter=65 //overridingRootKey
+ region_label=4_F_a
+ tune=0 offset=3699728 end=3822753
+ loop_start=3812415 loop_end=3822752
+<region>
+ lokey=67 hikey=70
+ lovel=111 hivel=127
+ ampeg_decay=9.99819
+ loop_mode=loop_continuous
+ pitch_keycenter=69 //overridingRootKey
+ region_label=4_A_a
+ tune=0 offset=3822799 end=3925233
+ loop_start=3917220 loop_end=3925232
+<region>
+ lokey=71 hikey=74
+ lovel=111 hivel=127
+ ampeg_decay=7.0007
+ loop_mode=loop_continuous
+ pitch_keycenter=73 //overridingRootKey
+ region_label=5_Db_a
+ tune=0 offset=3925279 end=4085226
+ loop_start=4074169 loop_end=4085225
+<region>
+ lokey=75 hikey=78
+ lovel=111 hivel=127
+ ampeg_decay=4.99909
+ loop_mode=loop_continuous
+ pitch_keycenter=77 //overridingRootKey
+ region_label=5_F_a
+ tune=0 offset=4085272 end=4184327
+ loop_start=4180227 loop_end=4184326
+<region>
+ lokey=79 hikey=82
+ lovel=111 hivel=127
+ ampeg_decay=4.19887
+ loop_mode=loop_continuous
+ pitch_keycenter=81 //overridingRootKey
+ region_label=5_A_a
+ tune=0 offset=4184373 end=4280622
+ loop_start=4277166 loop_end=4280621
+<region>
+ lokey=83 hikey=86
+ lovel=111 hivel=127
+ ampeg_decay=4
+ loop_mode=loop_continuous
+ pitch_keycenter=85 //overridingRootKey
+ region_label=6_Db_a
+ tune=0 offset=4280668 end=4377102
+ loop_start=4370157 loop_end=4377101
+<region>
+ lokey=87 hikey=127
+ lovel=111 hivel=127
+ ampeg_decay=3.60084
+ loop_mode=loop_continuous
+ pitch_keycenter=88 //overridingRootKey
+ region_label=6_E_a
+ tune=0 offset=4377148 end=4434341
+ loop_start=4431231 loop_end=4434340
+<region>
+ lokey=39 hikey=46
+ lovel=64 hivel=110
+ ampeg_decay=22.9036
+ loop_mode=loop_continuous
+ pitch_keycenter=46 //overridingRootKey
+ region_label=2_Bb_b
+ tune=0 offset=4434387 end=4648865
+ loop_start=4626909 loop_end=4648864
+<region>
+ lokey=47 hikey=50
+ lovel=64 hivel=110
+ ampeg_decay=21.996
+ loop_mode=loop_continuous
+ pitch_keycenter=48 //overridingRootKey
+ region_label=3_C_b
+ tune=0 offset=4648911 end=4836153
+ loop_start=4788683 loop_end=4836152
+<region>
+ lokey=51 hikey=53
+ lovel=64 hivel=110
+ ampeg_decay=21.7057
+ loop_mode=loop_continuous
+ pitch_keycenter=53 //overridingRootKey
+ region_label=3_F_b
+ tune=0 offset=4836199 end=5002854
+ loop_start=4954472 loop_end=5002853
+<region>
+ key=54
+ lovel=64 hivel=110
+ ampeg_decay=21.506
+ loop_mode=loop_continuous
+ pitch_keycenter=54 //overridingRootKey
+ region_label=3_Gb_b
+ tune=0 offset=5002900 end=5148318
+ loop_start=5119966 loop_end=5148317
+<region>
+ key=55
+ lovel=64 hivel=110
+ ampeg_decay=21.2958
+ loop_mode=loop_continuous
+ pitch_keycenter=55 //overridingRootKey
+ region_label=3_G_b
+ tune=0 offset=5148364 end=5320689
+ loop_start=5287408 loop_end=5320688
+<region>
+ key=56
+ lovel=64 hivel=110
+ ampeg_decay=20.7015
+ loop_mode=loop_continuous
+ pitch_keycenter=56 //overridingRootKey
+ region_label=3_Ab_b
+ tune=0 offset=5320735 end=5427993
+ loop_start=5407506 loop_end=5427992
+<region>
+ key=57
+ lovel=64 hivel=110
+ ampeg_decay=20.299
+ loop_mode=loop_continuous
+ pitch_keycenter=57 //overridingRootKey
+ region_label=3_A_b
+ tune=0 offset=5428039 end=5585685
+ loop_start=5558860 loop_end=5585684
+<region>
+ key=58
+ lovel=64 hivel=110
+ ampeg_decay=20.1006
+ loop_mode=loop_continuous
+ pitch_keycenter=58 //overridingRootKey
+ region_label=3_Bb_b
+ tune=0 offset=5585731 end=5783415
+ loop_start=5755706 loop_end=5783414
+<region>
+ key=59
+ lovel=64 hivel=110
+ ampeg_decay=19.6983
+ loop_mode=loop_continuous
+ pitch_keycenter=59 //overridingRootKey
+ region_label=3_B_b
+ tune=0 offset=5783461 end=5901035
+ loop_start=5875691 loop_end=5901034
+<region>
+ key=60
+ lovel=64 hivel=110
+ ampeg_decay=19.3041
+ loop_mode=loop_continuous
+ pitch_keycenter=60 //overridingRootKey
+ region_label=4_C_b
+ tune=0 offset=5901081 end=5991616
+ loop_start=5963222 loop_end=5991615
+<region>
+ key=61
+ lovel=64 hivel=110
+ ampeg_decay=18.8959
+ loop_mode=loop_continuous
+ pitch_keycenter=61 //overridingRootKey
+ region_label=4_Db_b
+ tune=0 offset=5991662 end=6124198
+ loop_start=6080006 loop_end=6124197
+<region>
+ key=62
+ lovel=64 hivel=110
+ ampeg_decay=18.4963
+ loop_mode=loop_continuous
+ pitch_keycenter=62 //overridingRootKey
+ region_label=4_D_b
+ tune=0 offset=6124244 end=6226787
+ loop_start=6193977 loop_end=6226786
+<region>
+ key=63
+ lovel=64 hivel=110
+ ampeg_decay=18.0009
+ loop_mode=loop_continuous
+ pitch_keycenter=63 //overridingRootKey
+ region_label=4_Eb_b
+ tune=0 offset=6226833 end=6331025
+ loop_start=6316894 loop_end=6331024
+<region>
+ lokey=64 hikey=76
+ lovel=64 hivel=110
+ ampeg_decay=18.0009
+ loop_mode=loop_continuous
+ pitch_keycenter=64 //overridingRootKey
+ region_label=4_E_b
+ tune=0 offset=6331071 end=6426242
+ loop_start=6413438 loop_end=6426241
+<region>
+ lokey=75 hikey=86
+ lovel=64 hivel=110
+ ampeg_decay=4
+ loop_mode=loop_continuous
+ pitch_keycenter=86 //overridingRootKey
+ region_label=6_D_b
+ tune=0 offset=6426288 end=6475276
+ loop_start=6462396 loop_end=6475275
+<region>
+ key=87
+ lovel=64 hivel=110
+ ampeg_decay=3.79956
+ loop_mode=loop_continuous
+ pitch_keycenter=87 //overridingRootKey
+ region_label=6_Eb_b
+ tune=0 offset=6475322 end=6531231
+ loop_start=6524220 loop_end=6531230
+<region>
+ key=88
+ lovel=64 hivel=110
+ ampeg_decay=3.60084
+ loop_mode=loop_continuous
+ pitch_keycenter=88 //overridingRootKey
+ region_label=6_E_b
+ tune=0 offset=6531277 end=6562352
+ loop_start=6550079 loop_end=6562351
+<region>
+ key=89
+ lovel=64 hivel=110
+ ampeg_decay=3.4007
+ loop_mode=loop_continuous
+ pitch_keycenter=89 //overridingRootKey
+ region_label=6_F_b
+ tune=0 offset=6562398 end=6617692
+ loop_start=6605820 loop_end=6617691
+<region>
+ key=90
+ lovel=64 hivel=110
+ ampeg_decay=3.20058
+ loop_mode=loop_continuous
+ pitch_keycenter=90 //overridingRootKey
+ region_label=6_Gb_b
+ tune=0 offset=6617738 end=6708962
+ loop_start=6698914 loop_end=6708961
+<region>
+ key=91
+ lovel=64 hivel=110
+ ampeg_decay=3.1005
+ loop_mode=loop_continuous
+ pitch_keycenter=91 //overridingRootKey
+ region_label=6_G_b
+ tune=0 offset=6709008 end=6780465
+ loop_start=6770305 loop_end=6780464
+<region>
+ key=92
+ lovel=64 hivel=110
+ ampeg_decay=3.00008
+ loop_mode=loop_continuous
+ pitch_keycenter=92 //overridingRootKey
+ region_label=6_Ab_b
+ tune=0 offset=6780511 end=6902151
+ loop_start=6875276 loop_end=6902150
+<region>
+ key=93
+ lovel=64 hivel=110
+ ampeg_decay=3.00008
+ loop_mode=loop_continuous
+ pitch_keycenter=93 //overridingRootKey
+ region_label=6_A_b
+ tune=0 offset=6902197 end=6944185
+ loop_start=6936059 loop_end=6944184
+<region>
+ key=94
+ lovel=64 hivel=110
+ ampeg_decay=2.80079
+ loop_mode=loop_continuous
+ pitch_keycenter=94 //overridingRootKey
+ region_label=6_Bb_b
+ tune=0 offset=6944231 end=7031217
+ loop_start=7018857 loop_end=7031216
+<region>
+ key=95
+ lovel=64 hivel=110
+ ampeg_decay=2.80079
+ loop_mode=loop_continuous
+ pitch_keycenter=95 //overridingRootKey
+ region_label=6_B_b
+ tune=0 offset=7031263 end=7111345
+ loop_start=7101153 loop_end=7111344
+<region>
+ key=96
+ lovel=64 hivel=110
+ ampeg_decay=2.7007
+ loop_mode=loop_continuous
+ pitch_keycenter=96 //overridingRootKey
+ region_label=7_C_b
+ tune=0 offset=7111391 end=7135432
+ loop_start=7130024 loop_end=7135431
+<region>
+ key=97
+ lovel=64 hivel=110
+ ampeg_decay=2.49955
+ loop_mode=loop_continuous
+ pitch_keycenter=97 //overridingRootKey
+ region_label=7_Db_b
+ tune=0 offset=7135478 end=7189307
+ loop_start=7181495 loop_end=7189306
+<region>
+ key=98
+ lovel=64 hivel=110
+ ampeg_decay=2.30005
+ loop_mode=loop_continuous
+ pitch_keycenter=98 //overridingRootKey
+ region_label=7_D_b
+ tune=0 offset=7189353 end=7236473
+ loop_start=7229966 loop_end=7236472
+<region>
+ key=99
+ lovel=64 hivel=110
+ ampeg_decay=2.09943
+ loop_mode=loop_continuous
+ pitch_keycenter=99 //overridingRootKey
+ region_label=7_Eb_b
+ tune=0 offset=7236519 end=7260507
+ loop_start=7256445 loop_end=7260506
+<region>
+ lokey=100 hikey=127
+ lovel=64 hivel=110
+ ampeg_decay=2
+ loop_mode=loop_continuous
+ pitch_keycenter=100 //overridingRootKey
+ region_label=7_E_b
+ tune=0 offset=7260553 end=7307860
+ loop_start=7302181 loop_end=7307859
+<region>
+ lokey=0 hikey=30
+ lovel=0 hivel=110
+ ampeg_decay=25.0054
+ loop_mode=loop_continuous
+ pitch_keycenter=29 //overridingRootKey
+ region_label=1_F_c
+ tune=0 offset=7307906 end=8211047
+ loop_start=8146269 loop_end=8211046
+<region>
+ lokey=31 hikey=34
+ lovel=0 hivel=110
+ ampeg_decay=24.2935
+ loop_mode=loop_continuous
+ pitch_keycenter=33 //overridingRootKey
+ region_label=1_A_c
+ tune=0 offset=8211093 end=9027167
+ loop_start=8983372 loop_end=9027166
+<region>
+ lokey=35 hikey=38
+ lovel=0 hivel=110
+ ampeg_decay=23.7936
+ loop_mode=loop_continuous
+ pitch_keycenter=37 //overridingRootKey
+ region_label=2_Db_c
+ tune=0 offset=9027213 end=9614318
+ loop_start=9571179 loop_end=9614317
+<region>
+ lokey=39 hikey=42
+ lovel=0 hivel=63
+ ampeg_decay=22.9036
+ loop_mode=loop_continuous
+ pitch_keycenter=41 //overridingRootKey
+ region_label=2_F_c
+ tune=0 offset=9614364 end=10055837
+ loop_start=10014109 loop_end=10055836
+<region>
+ lokey=43 hikey=47
+ lovel=0 hivel=63
+ ampeg_decay=21.996
+ loop_mode=loop_continuous
+ pitch_keycenter=45 //overridingRootKey
+ region_label=2_A_c
+ tune=0 offset=10055883 end=10453805
+ loop_start=10409751 loop_end=10453804
+<region>
+ lokey=48 hikey=50
+ lovel=0 hivel=63
+ ampeg_decay=21.7057
+ loop_mode=loop_continuous
+ pitch_keycenter=49 //overridingRootKey
+ region_label=3_Db_c
+ tune=0 offset=10453851 end=10852427
+ loop_start=10812426 loop_end=10852426
+<region>
+ lokey=51 hikey=54
+ lovel=0 hivel=63
+ ampeg_decay=21.7057
+ loop_mode=loop_continuous
+ pitch_keycenter=52 //overridingRootKey
+ region_label=3_E_c
+ tune=0 offset=10852473 end=11165934
+ loop_start=11126888 loop_end=11165933
+<region>
+ lokey=55 hikey=58
+ lovel=0 hivel=63
+ ampeg_decay=20.299
+ loop_mode=loop_continuous
+ pitch_keycenter=57 //overridingRootKey
+ region_label=3_A_c
+ tune=0 offset=11165980 end=11503757
+ loop_start=11465484 loop_end=11503756
+<region>
+ lokey=59 hikey=62
+ lovel=0 hivel=63
+ ampeg_decay=18.7004
+ loop_mode=loop_continuous
+ pitch_keycenter=61 //overridingRootKey
+ region_label=4_Db_c
+ tune=0 offset=11503803 end=11782788
+ loop_start=11750051 loop_end=11782787
+<region>
+ lokey=63 hikey=66
+ lovel=0 hivel=63
+ ampeg_decay=14.9977
+ loop_mode=loop_continuous
+ pitch_keycenter=65 //overridingRootKey
+ region_label=4_F_c
+ tune=0 offset=11782834 end=11975986
+ loop_start=11953809 loop_end=11975985
+<region>
+ lokey=67 hikey=70
+ lovel=0 hivel=63
+ ampeg_decay=9.99819
+ loop_mode=loop_continuous
+ pitch_keycenter=69 //overridingRootKey
+ region_label=4_A_c
+ tune=0 offset=11976032 end=12133724
+ loop_start=12113210 loop_end=12133723
+<region>
+ lokey=71 hikey=74
+ lovel=0 hivel=63
+ ampeg_decay=7.0007
+ loop_mode=loop_continuous
+ pitch_keycenter=73 //overridingRootKey
+ region_label=5_Db_c
+ tune=0 offset=12133770 end=12308030
+ loop_start=12286877 loop_end=12308029
+<region>
+ lokey=75 hikey=78
+ lovel=0 hivel=63
+ ampeg_decay=4.99909
+ loop_mode=loop_continuous
+ pitch_keycenter=77 //overridingRootKey
+ region_label=5_F_c
+ tune=0 offset=12308076 end=12421644
+ loop_start=12406827 loop_end=12421643
+<region>
+ lokey=79 hikey=82
+ lovel=0 hivel=63
+ ampeg_decay=4.19887
+ loop_mode=loop_continuous
+ pitch_keycenter=81 //overridingRootKey
+ region_label=5_A_c
+ tune=0 offset=12421690 end=12549671
+ loop_start=12539908 loop_end=12549670
+<region>
+ lokey=83 hikey=86
+ lovel=0 hivel=63
+ ampeg_decay=4
+ loop_mode=loop_continuous
+ pitch_keycenter=85 //overridingRootKey
+ region_label=6_Db_c
+ tune=0 offset=12549717 end=12651148
+ loop_start=12639403 loop_end=12651147
+<region>
+ lokey=87 hikey=127
+ lovel=0 hivel=63
+ ampeg_decay=3.60084
+ loop_mode=loop_continuous
+ pitch_keycenter=88 //overridingRootKey
+ region_label=6_E_c
+ tune=0 offset=12651194 end=12699063
+ loop_start=12694851 loop_end=12699062
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<curve>//7 GMCurves::ConvaveLin
+ v000=0            v001=6.20001e-05  v002=0.000248     v003=0.000558001  v004=0.000992002 
+ v005=0.00155      v006=0.002232     v007=0.00303801   v008=0.00396801   v009=0.00502201  
+ v010=0.00620001   v011=0.00750202   v012=0.00892802   v013=0.010478     v014=0.012152    
+ v015=0.01395      v016=0.015872     v017=0.017918     v018=0.020088     v019=0.022382    
+ v020=0.0248       v021=0.0273421    v022=0.0300081    v023=0.0327981    v024=0.0357121   
+ v025=0.0387501    v026=0.0419121    v027=0.0451981    v028=0.0486081    v029=0.0521421   
+ v030=0.0558001    v031=0.0595821    v032=0.0634881    v033=0.0675181    v034=0.0716721   
+ v035=0.0759502    v036=0.0803522    v037=0.0848782    v038=0.0895282    v039=0.0943022   
+ v040=0.0992002    v041=0.104222     v042=0.109368     v043=0.114638     v044=0.120032    
+ v045=0.12555      v046=0.131192     v047=0.136958     v048=0.142848     v049=0.148862    
+ v050=0.155        v051=0.161262     v052=0.167648     v053=0.174158     v054=0.180792    
+ v055=0.18755      v056=0.194432     v057=0.201438     v058=0.208568     v059=0.215822    
+ v060=0.2232       v061=0.230702     v062=0.238328     v063=0.246078     v064=0.253953    
+ v065=0.261951     v066=0.270073     v067=0.278319     v068=0.286689     v069=0.295183    
+ v070=0.303801     v071=0.312543     v072=0.321409     v073=0.330399     v074=0.339513    
+ v075=0.348751     v076=0.358113     v077=0.367599     v078=0.377209     v079=0.386943    
+ v080=0.396801     v081=0.406783     v082=0.416889     v083=0.427119     v084=0.437473    
+ v085=0.447951     v086=0.458553     v087=0.469279     v088=0.480129     v089=0.491103    
+ v090=0.502201     v091=0.513423     v092=0.524769     v093=0.536239     v094=0.547833    
+ v095=0.559551     v096=0.571393     v097=0.583359     v098=0.595449     v099=0.607663    
+ v100=0.620001     v101=0.632463     v102=0.645049     v103=0.657759     v104=0.670593    
+ v105=0.683551     v106=0.696633     v107=0.709839     v108=0.723169     v109=0.736623    
+ v110=0.750202     v111=0.763904     v112=0.77773      v113=0.79168      v114=0.805754    
+ v115=0.819952     v116=0.834274     v117=0.84872      v118=0.86329      v119=0.877984    
+ v120=0.892802     v121=0.907744     v122=0.92281      v123=0.938        v124=0.953314    
+ v125=0.968752     v126=0.984314     v127=1           
+
